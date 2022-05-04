@@ -2,7 +2,6 @@ body {
     margin: 0px;
     width: 1024px;
     background-color: #EFDFEF;
-    font-family: Salma Pro Medium;
     border: 1024px;
     
 
@@ -18,5 +17,6 @@ body {
     width: 1024px;
     height: 732px;
     background-color: #8971A1;
-    
+    border: 1024px;
+    margin: 0px;
 }
