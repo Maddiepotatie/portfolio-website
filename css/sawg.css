@@ -1,13 +1,22 @@
 body {
     margin: 0px;
-    width: 100%;
+    width: 1024px;
     background-color: #EFDFEF;
+    font-family: Salma Pro Medium;
+    border: 1024px;
     
 
 }
 
-#maincontainer {
+#box1 {
     width: 1024px;
-    height: 2000px;
+    height: 523px;
     background-color: #8971A1;
+}
+
+#contactsbox {
+    width: 1024px;
+    height: 732px;
+    background-color: #8971A1;
+    
 }
