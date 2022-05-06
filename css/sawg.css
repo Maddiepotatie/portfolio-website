@@ -3,6 +3,7 @@ body {
     background-color: #EFDFEF;
     border: 1024px;
     font-family: "Salma Pro Medium", sans-serif;
+    color: #4F2E70;
 }
 
 #box1 {
@@ -85,10 +86,18 @@ ol {
 }
 
 h1{
-    font-family: victory;
+    font-family: Victory;
 }
 
 @font-face {
-    font-family: 'victory';
+    font-family: 'Victory';
     src: url('fonts/Victory History Demo.ttf');
+}
+
+#starstrip {
+    
+}
+.image {
+    position: relative; 
+    top: 0p;
 }
