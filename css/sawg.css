@@ -1,10 +1,8 @@
 body {
     margin: 0px;
-    
     background-color: #EFDFEF;
     border: 1024px;
-
-
+    font-family: "Salma Pro Medium", sans-serif;
 }
 
 #box1 {
@@ -14,8 +12,7 @@ body {
     color: #EFDFEF;
     display: flex;
     align-items: center;
-    flex-direction: column;
-    
+    flex-direction: column; 
 }
 
 #contactsbox {
@@ -60,8 +57,6 @@ body {
     flex-direction: column;
     flex-direction: row;
     justify-content: space-around;
-    
-
 }
 
 #maincontainer {
@@ -70,7 +65,6 @@ body {
     flex-direction: column;
 }
 ul {
-    
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -88,4 +82,13 @@ ol {
 
 #aboutcontent {
     width: 1024px;
+}
+
+h1{
+    font-family: victory;
+}
+
+@font-face {
+    font-family: 'victory';
+    src: url('fonts/Victory History Demo.ttf');
 }
