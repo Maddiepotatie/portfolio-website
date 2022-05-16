@@ -37,6 +37,11 @@ body {
     flex-direction: column;
 }
 
+#p1 {
+    font-size: 35px;
+    margin-top: -55px;
+}
+
 #resume {
     width: 1024px;
     height: 315px;
@@ -76,6 +81,7 @@ body {
     flex-direction: row;
     justify-content: space-around;
     font-size: 55px;
+    margin-top: -400px;
 }
 
 #maincontainer {
@@ -83,6 +89,17 @@ body {
     align-items: center;
     flex-direction: column;
 }
+
+#picside {
+    width: 451px;
+    height: 940px;
+    background-color: #8971A1;
+    position: relative;
+    top: -941px;
+    margin-left: -469px;
+    
+}
+
 ul {
     display: flex;
     flex-direction: row;
