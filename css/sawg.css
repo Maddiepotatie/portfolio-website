@@ -90,6 +90,11 @@ body {
     flex-direction: column;
 }
 
+#contacts {
+    font-size: 55px;
+    margin-right: 400px;
+}
+
 #picside {
     width: 451px;
     height: 940px;
