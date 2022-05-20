@@ -9,6 +9,7 @@ body {
     font-size: 55px;
     margin-left: 250px;
     margin-top: -200px;
+    font-family: 'Spectral', serif;
 }
 #box1 {
     width: 1024px;
@@ -35,11 +36,24 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-top: -940px;
 }
 
 #p1 {
     font-size: 35px;
     margin-top: -55px;
+}
+
+#me {
+    margin-left: 10000;
+    font-family: 'Spectral', serif;
+    display: flex;
+    justify-content: center;
+}
+
+#circle {
+   margin-right: 10000px;
+   padding-left: 45px;
 }
 
 #resume {
@@ -51,8 +65,9 @@ body {
     align-items: center;
     flex-direction: column;
     font-size: 70px;
-    margin-top: 1000;
-   
+    font-family: 'Victory',Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    font-family: 'Spectral', serif;
 }
 
 #nav {
@@ -65,10 +80,11 @@ body {
     flex-direction: column;
     position: relative;
     top: -155px;
+    font-family: 'Spectral', serif;
 }
 #star2 {
     position: relative;
-    top: 150px;
+    top: -770px;
     bottom: auto;
 }
 
@@ -84,6 +100,7 @@ body {
     justify-content: space-around;
     font-size: 55px;
     margin-top: -400px;
+    font-family: 'Spectral', serif;
 }
 
 #maincontainer {
@@ -95,16 +112,19 @@ body {
 #contacts {
     font-size: 55px;
     margin-right: 400px;
+    font-family: 'Spectral', serif;
 }
 
 #picside {
     width: 451px;
-    height: 940px;
+    height: 980px;
     background-color: #8971A1;
     position: relative;
-    top: -941px;
+    top: -972px;
     margin-left: -469px;
-    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 #star3 {
@@ -128,6 +148,7 @@ ul {
 ol {
     list-style: none;
     font-size: 30px;
+    margin-left: 250px;
 }
 
 #aboutcontent {
@@ -143,7 +164,7 @@ ol {
 
 @font-face {
     font-family: 'Victory';
-    src: url('fonts/Victory History Demo.ttf');
+    src: url("fonts/Victory History Demo.ttf") format("ttf");
 }
 
 #content {
