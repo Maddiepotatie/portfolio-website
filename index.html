@@ -31,9 +31,9 @@
     
     <div id="nav">
         <ul>
-            <li>About</li>
-            <li>Portfolio</li>
-            <li>Contacts</li>
+            <a href="#aboutcontent"><li>About</li></a>
+            <a href="#portfolio"><li>Portfolio</li></a>
+            <a href="#contacts"><li>Contacts</li></a>
         </ul>
     </div>
     <div id="about">
@@ -43,8 +43,8 @@
     <p>Hello! I’m Madeline Barry, but you can call me Maddie. I was born in Wilmington, Delaware on March, 30, 2005. Currently, I’m a visual arts major attending Cab Calloway School of the Arts, but art has been a part of my life for years. Ever since I was young, art has helped me express emotion words just can’t and now I find myself with a burning passion for all forms of art.  Studying at Cab has led me to develop many artistic skills in traditional illustration, coding, sewing, and the Adobe suite. However, art is just one part of myself as I enjoy traveling, community service, and devotion to academics. I’m also a bit of a nerd, as in my freetime I enjoy reading, games, listening to music/podcasts, and watching a variety of movies and TV shows. If you scroll down a little further you’ll find some of my works, ranging from traditional painting to logo design. And if you just so happen to like what you see, my contacts are the next thing after my portfolio. Thank you for your time!! :D
     </p>
     <div id="picside">
-        <div id="circle" style="left: 1000px;">
-            <img src="images/circle-1.png" class="image" width="350px"/>
+        <div id="circle" style="right: 1000px;">
+            <img src="images/1DB026DC-5C59-4AFD-9082-7B313472067F copy.png" class="image" width="650px"/>
         </div>
         <div id="me">
         <h1>Look It's Me!!</h1>
@@ -58,14 +58,14 @@
     <br/>
     <br/>
     <div id="content">
-        <img src="images/Madeline.Barry.2 (1).jpg" class="image" width="615.5px"/>
+        
     </div>
     <div id="star3">
         <img src="images/contentstars.png" class="image" width="1084px"/>
     </div>
     
     <div id="resume" style="top: -850px;">
-    <h1>Resume</h1>
+    <a href="resume.html"><h1>Resume</h1></a>
     </div>
     <div id="star2">
         <img src="images/Stars2.png" class="image" width="1150"/>
@@ -74,6 +74,10 @@
     <div id="contacts">
     <h1>Contacts:</h1>
     </div>
+    <div id="logo">
+        <img src="images/Group 3.png" width="300px"/>
+
+    </div>
     <ol>
         <li>302-415-1594</li>
         <br>
@@ -81,9 +85,92 @@
         <br>
            <li>@potatie_draws</li> 
            <br>
-           <li>Redbubble link</li>
+           
     </ol>
     </div>
+    <!-- Container for the image gallery -->
+<div class="container">
+
+    <!-- Full-width images with number text -->
+    <div class="mySlides">
+      <div class="numbertext">1 / 6</div>
+        <img src="images/Madeline.Barry.2 (1).jpg" style="width:615.5px">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">2 / 6</div>
+        <img src="images/Copy of Madeline.Barry.jpg" style="width:600px">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">3 / 6</div>
+        <img src="images/IMG_2220 (1).jpg" style="width: 600px">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">4 / 6</div>
+        <img src="images/Kappa Creek.jpg" style="width:600px">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">5 / 6</div>
+        <img src="images/IMG_2236.jpg" style="width:600px">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">6 / 6</div>
+        <img src="images/Copy of export.JPG" style="width:600px">
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+    <!-- Image text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+   
+    </div>
+  </div>
+  
+
+  
 </div>
+
+<script>
+    let slideIndex = 1;
+  showSlides(slideIndex);
+  
+  // Next/previous controls
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+  
+  // Thumbnail image controls
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+  
+  function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("demo");
+    let captionText = document.getElementById("caption");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+    captionText.innerHTML = dots[slideIndex-1].alt;
+  }
+  </script>
+
 </body>
 </html>
