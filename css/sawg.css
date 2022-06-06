@@ -193,7 +193,7 @@ ol {
 }
 
 #content {
-    background-color: #8971A1;
+   
     width: 745px;
     height: 904px;
     display: flex;
@@ -294,6 +294,8 @@ ol {
 
   .container {
       margin-top: -2300px;
+      padding: 50px;
+      background-color: #8971A1;
   }
 
   a {
